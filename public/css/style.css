@@ -1,0 +1,12 @@
+.image{
+    display: grid;
+    grid-gap: 5px / 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+
+.image img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
